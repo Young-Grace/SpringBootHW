@@ -5,15 +5,21 @@
   	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
   	<link href="pretty.css" type="text/css" rel="stylesheet">
   	
+
 <title>Subscriber Sign-Up</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
+<div class="header"></div>
+
+<body style="background-color:#091227;">
 <body>
-	<h3>Subscriber Sign-up Form</h3>
-	<p>Thank you for signing up!</p>
-	<h4>Subscriber:</h4>
-	<p th:text="${firstName}" />
-	<p th:text="${lastName}" />
-	<p th:text="${userName}" />
+	<div class="formblock">
+		<h3>Subscriber Sign-up Form</h3>
+		<p>Thank you for signing up!</p>
+		<h4>Subscriber:</h4>
+		<p th:text="${firstName}" />
+		<p th:text="${lastName}" />
+		<p th:text="${userName}" />
+	</div>
 </body>
 </html>
