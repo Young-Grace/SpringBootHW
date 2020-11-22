@@ -18,13 +18,13 @@ html, body {
   color: white;
   text-align: center;
   position: absolute;
-  top: 0;
+  top: 230px;
   left: 8%;
   display: inline-block;
   margin: 15vh 0 0 15vw;
-  padding: 50px;
+  padding: 20px 30px 50px 90px;
   width: 45vw;
-  height: 400px;
+  height: 250px;
   background-color: hsla(225, 100%, 1%, 0.4);
 }
 
@@ -37,18 +37,19 @@ html, body {
 input {
 	margin: 5px;
 	text-align: center;
-	position: static;
+	position: relative;
 }
 
 
 #textstuff {
   margin-right: 50px;
-  
+  float: center;
 }
 
 #buttbutton {
   text-align: center;
-  float: center;
+
+  top: 400px;
 }
 
 body {
@@ -62,18 +63,22 @@ body {
   padding: 0 10px;
 }
 
+table {
+  right: 300px;
+}
+
 
 .header .container {
   position: relative;
   top: 200px;
 }
 
-.header h1 {
+h1 {
   color: #fff;
   line-height: 100px; 
   font-size: 80px;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   text-transform: uppercase; 
   color: #FFB6C1;
 }
