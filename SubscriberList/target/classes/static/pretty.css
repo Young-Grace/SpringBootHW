@@ -14,15 +14,20 @@ html, body {
   padding: 0;
 }
 
+nav #nav1 {
+  background-color: #112249; 
+  color: white;
+}
+
 .formblock {
   color: white;
   text-align: center;
   position: absolute;
-  top: 230px;
-  left: 8%;
+  top: 325px;
+  left: 10%;
   display: inline-block;
   margin: 15vh 0 0 15vw;
-  padding: 20px 30px 50px 90px;
+  padding: 10px;
   width: 45vw;
   height: 250px;
   background-color: hsla(225, 100%, 1%, 0.4);
@@ -72,6 +77,10 @@ table {
 .header .container {
   position: relative;
   top: 200px;
+}
+
+nav a {
+  color: white;
 }
 
 h1 {
