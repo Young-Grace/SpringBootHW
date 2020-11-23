@@ -26,11 +26,12 @@ html, body {
   width: 45vw;
   height: 250px;
   background-color: hsla(225, 100%, 1%, 0.4);
+  justify-content: center;
 }
 
 
 .boxstuff {
-  justify-content: center;
+
   align-items: center;
 }
 
